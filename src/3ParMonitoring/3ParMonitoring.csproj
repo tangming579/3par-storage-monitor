@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SshClientManager.cs" />
+    <Compile Include="SshAPI\SshClientManager.cs" />
     <Compile Include="WSAPI\WebClientManager.cs" />
     <Compile Include="WSAPI\APIAccessor.cs" />
     <Compile Include="WSAPI\SessionKey.cs" />
@@ -61,5 +61,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

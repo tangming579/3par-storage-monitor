@@ -41,7 +41,26 @@ namespace _3ParMonitoring.WSAPI
 
         public void StatCPU()
         {
-            string url = urlWsapi + "credentials";
+            string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/ ";
+            Action<string> callBack = (str) =>
+            {
+
+            };
+            WebClientManager.Post(url, url + "", sessionKey, callBack);
+        }
+        public void QuaryAllPorts()
+        {
+            string url = urlWsapi + "ports";
+            Action<string> callBack = (str) =>
+            {
+
+            };
+            WebClientManager.Post(url, url + "", sessionKey, callBack);
+        }
+
+        public void GetSystemInfo()
+        {
+            string url = urlWsapi + "system";
             Action<string> callBack = (str) =>
             {
 

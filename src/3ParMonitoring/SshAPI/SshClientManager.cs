@@ -125,7 +125,7 @@ namespace _3ParMonitoring
             }
         }
 
-        public void ConvertCLIOutputToCollection()
+        public void ConvertCLIOutputToCollection(string cli_output)
         {
 
         }

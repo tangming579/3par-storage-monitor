@@ -15,7 +15,6 @@ namespace _3ParMonitoring
 
         static void Main(string[] args)
         {
-            //// 解决WebClient不能通过https下载内容问题
             //ServicePointManager.ServerCertificateValidationCallback +=
             //    delegate (object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate,
             //     System.Security.Cryptography.X509Certificates.X509Chain chain,
@@ -24,18 +23,18 @@ namespace _3ParMonitoring
             //        return true; // **** Always accept
             //    };
 
-            //using (WebClient client = new WebClient())
-            //{
-            //    string address = "https://192.168.128.151:8080/api/v1/";
-            //    client.Encoding = Encoding.UTF8;
-            //    client.Headers.Add("Content-Type", "application/json; charset=utf-8");
-            //    client.DownloadStringCompleted += Client_DownloadStringCompleted;
-            //    client.DownloadStringAsync(new Uri(address));
-            //}
+            SshClientManager sshClientManager = new SshClientManager("192.168.128.1", "user", "password");
+            if (sshClientManager.Connect())
+                Console.WriteLine("Ssh connect success!");
+            sshClientManager.SrStatCPU();
+            sshClientManager.StatMemory();
 
             APIAccessor aPIAccessor = new APIAccessor("https://192.168.128.1:8080/aip/v1/", "user", "password");
-            
+            aPIAccessor.StatCPU();
+            aPIAccessor.GetSystemInfo();
+
             Console.ReadKey();
+            sshClientManager.Dispose();
         }
 
         private static void Client_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
