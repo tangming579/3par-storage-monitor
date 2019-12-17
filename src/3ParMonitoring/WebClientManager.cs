@@ -8,8 +8,12 @@ using System.Threading.Tasks;
 
 namespace _3ParMonitoring
 {
-    class WebClientManager
+    public class WebClientManager
     {
+        public void Post()
+        {
+
+        }
     }
 
     public class ParWebClient : WebClient
