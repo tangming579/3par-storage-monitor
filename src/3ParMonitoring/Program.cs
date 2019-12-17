@@ -1,4 +1,5 @@
-﻿using Renci.SshNet;
+﻿using _3ParMonitoring.WSAPI;
+using Renci.SshNet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,18 +33,8 @@ namespace _3ParMonitoring
             //    client.DownloadStringAsync(new Uri(address));
             //}
 
+            APIAccessor aPIAccessor = new APIAccessor("https://192.168.128.1:8080/aip/v1/", "user", "password");
             
-            using (var client = new SshClient("192.168.128.200", "root", "123456"))
-            {                
-                client.Connect();
-
-                using (var cmd = client.CreateCommand("ls -l"))
-                {
-                    var res = cmd.Execute();
-                    Console.Write(res);
-                }
-            }
-
             Console.ReadKey();
         }
 

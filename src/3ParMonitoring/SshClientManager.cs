@@ -100,6 +100,9 @@ namespace _3ParMonitoring
                 Console.Write(res);
             }
         }
+
+        //statcpu -iter 1:Specifies that CPU statistics are displayed a specified number of times
+        //statcpu -t: Show only the totals for all the CPUs on each node
         public void StatCPU()
         {
             if (!IsConnected) Connect();
@@ -110,15 +113,24 @@ namespace _3ParMonitoring
             }
         }
 
+        //statcmp -iter 1:Specifies that CMP statistics are displayed a specified number of times
+        //statcmp -d <seconds>: Specifies the interval, in seconds,
         public void StatMemory()
         {
             if (!IsConnected) Connect();
-            using (var cmd = client.CreateCommand("statcmp -iter 2"))
+            using (var cmd = client.CreateCommand("statcmp -iter 1"))
             {
                 var res = cmd.Execute();
                 Console.Write(res);
             }
         }
+
+        public void ConvertCLIOutputToCollection()
+        {
+
+        }
+
+
         #endregion
     }
 }

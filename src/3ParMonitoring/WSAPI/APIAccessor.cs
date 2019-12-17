@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace _3ParMonitoring.WSAPI
 {
     /*
-     * showwsapi
+     * showwsapi -d
      * startwsapi
      * setwsapi -https enable
      * showwsapisession
@@ -18,7 +18,6 @@ namespace _3ParMonitoring.WSAPI
         private string urlWsapi;
         private string sessionKey = null;
         private bool credentialed;
-        private const string SessionHeader = "X-HP3PAR-WSAPI-SessionKey";
 
         public APIAccessor(string urlWsapi, string user, string password)
         {
@@ -33,6 +32,21 @@ namespace _3ParMonitoring.WSAPI
             jdata["user"] = user;
             jdata["password"] = password;
             jdata["sessionType"] = 1;
+            Action<string> callBack = (str) =>
+             {
+
+             };
+            WebClientManager.Post(url, jdata + "", null, callBack);
+        }
+
+        public void StatCPU()
+        {
+            string url = urlWsapi + "credentials";
+            Action<string> callBack = (str) =>
+            {
+
+            };
+            WebClientManager.Post(url, url + "", sessionKey, callBack);
         }
     }
 }
