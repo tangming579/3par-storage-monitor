@@ -78,5 +78,47 @@ namespace _3ParMonitoring
                 }
             }
         }
+
+        #region 3Par CLI
+
+        public void SrStatCPU()
+        {
+            if (!IsConnected) Connect();
+            using (var cmd = client.CreateCommand($"srstatcpu -btsecs {DateTime.Today:yyyy-MM-dd}"))
+            {
+                var res = cmd.Execute();
+                Console.Write(res);
+            }
+        }
+
+        public void SrStatMemory()
+        {
+            if (!IsConnected) Connect();
+            using (var cmd = client.CreateCommand($"srstatcmp -btsecs {DateTime.Today:yyyy-MM-dd}"))
+            {
+                var res = cmd.Execute();
+                Console.Write(res);
+            }
+        }
+        public void StatCPU()
+        {
+            if (!IsConnected) Connect();
+            using (var cmd = client.CreateCommand("statcpu -iter 1"))
+            {
+                var res = cmd.BeginExecute();
+                Console.Write(res);
+            }
+        }
+
+        public void StatMemory()
+        {
+            if (!IsConnected) Connect();
+            using (var cmd = client.CreateCommand("statcmp -iter 2"))
+            {
+                var res = cmd.Execute();
+                Console.Write(res);
+            }
+        }
+        #endregion
     }
 }
