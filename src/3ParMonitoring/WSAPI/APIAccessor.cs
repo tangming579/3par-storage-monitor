@@ -16,7 +16,7 @@ namespace _3ParMonitoring.WSAPI
     public class APIAccessor
     {
         private string urlWsapi;
-        private string sessionKey = null;
+        private string sessionKey = "0-8148975447b67a8ad1ff9d4b8233a2bf-c26d005e";
         private bool credentialed;
 
         public APIAccessor(string urlWsapi, string user, string password)
@@ -27,6 +27,7 @@ namespace _3ParMonitoring.WSAPI
 
         public void GetSessionKey(string user, string password)
         {
+            if (sessionKey != null) return;
             string url = urlWsapi + "credentials";
             var jdata = new JObject();
             jdata["user"] = user;
@@ -34,19 +35,29 @@ namespace _3ParMonitoring.WSAPI
             jdata["sessionType"] = 1;
             Action<string> callBack = (str) =>
              {
-
+                 JObject obj = JObject.Parse(str);
+                 sessionKey = obj.SelectToken("key") + "";
              };
             WebClientManager.Post(url, jdata + "", null, callBack);
         }
 
         public void StatCPU()
         {
-            string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/";
+            string url = urlWsapi + "systemreporter/attime/cpustatistics/hires;groupby:node";
             Action<string> callBack = (str) =>
             {
 
             };
-            WebClientManager.Post(url, url + "", sessionKey, callBack);
+            WebClientManager.Get(url, sessionKey, callBack);
+        }
+        public void StatMemory()
+        {
+            string url = urlWsapi + "systemreporter/attime/cpustatistics/hires;groupby:node";
+            Action<string> callBack = (str) =>
+            {
+
+            };
+            WebClientManager.Get(url, sessionKey, callBack);
         }
         public void QuaryAllPorts()
         {
@@ -55,7 +66,7 @@ namespace _3ParMonitoring.WSAPI
             {
 
             };
-            WebClientManager.Post(url, url + "", sessionKey, callBack);
+            WebClientManager.Get(url, sessionKey, callBack);
         }
 
         public void GetSystemInfo()
@@ -65,7 +76,7 @@ namespace _3ParMonitoring.WSAPI
             {
 
             };
-            WebClientManager.Post(url, url + "", sessionKey, callBack);
+            WebClientManager.Get(url, sessionKey, callBack);
         }
     }
 }
