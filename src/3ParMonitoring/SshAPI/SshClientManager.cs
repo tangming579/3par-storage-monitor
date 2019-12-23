@@ -42,9 +42,10 @@ namespace _3ParMonitoring
 
         public bool Connect()
         {
+            Console.WriteLine("Start to connect ssh server...");
             connectionInfo = new PasswordConnectionInfo(sshHost, sshPort, sshUser, sshPassword);
             //设置SSH连接超时时间
-            connectionInfo.Timeout = TimeSpan.FromSeconds(10);
+            connectionInfo.Timeout = TimeSpan.FromSeconds(20);
             client = new SshClient(connectionInfo);
             try
             {
@@ -84,7 +85,7 @@ namespace _3ParMonitoring
         public void SrStatCPU()
         {
             if (!IsConnected) Connect();
-            using (var cmd = client.CreateCommand($"srstatcpu -btsecs {DateTime.Today:yyyy-MM-dd}"))
+            using (var cmd = client.CreateCommand($"srstatcpu -attime"))
             {
                 var res = cmd.Execute();
                 Console.Write(res);
@@ -94,7 +95,7 @@ namespace _3ParMonitoring
         public void SrStatMemory()
         {
             if (!IsConnected) Connect();
-            using (var cmd = client.CreateCommand($"srstatcmp -btsecs {DateTime.Today:yyyy-MM-dd}"))
+            using (var cmd = client.CreateCommand($"srstatcmp -attime"))
             {
                 var res = cmd.Execute();
                 Console.Write(res);

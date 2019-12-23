@@ -41,7 +41,7 @@ namespace _3ParMonitoring.WSAPI
 
         public void StatCPU()
         {
-            string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/ ";
+            string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/";
             Action<string> callBack = (str) =>
             {
 

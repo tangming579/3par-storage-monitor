@@ -15,6 +15,7 @@ namespace _3ParMonitoring
         {
             var client = CreateWebClient(sessionKey);
             byte[] postData = Encoding.UTF8.GetBytes(jsonStr);
+            //client.Headers.Add("Content-Length", postData.Length+"");
             client.UploadDataCompleted += (sender, e) =>
             {
                 string result = string.Empty;

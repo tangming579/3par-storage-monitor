@@ -53,9 +53,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SshAPI\SshClientManager.cs" />
+    <Compile Include="WSAPI\Util.cs" />
     <Compile Include="WSAPI\WebClientManager.cs" />
     <Compile Include="WSAPI\APIAccessor.cs" />
-    <Compile Include="WSAPI\SessionKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
