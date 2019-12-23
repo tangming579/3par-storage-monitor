@@ -16,7 +16,7 @@ namespace _3ParMonitoring.WSAPI
     public class APIAccessor
     {
         private string urlWsapi;
-        private string sessionKey = "0-8148975447b67a8ad1ff9d4b8233a2bf-c26d005e";
+        private string sessionKey = "0-9503ea1a22d0d4410ed165920b891c79-c27c005e";
         private bool credentialed;
 
         public APIAccessor(string urlWsapi, string user, string password)
@@ -52,7 +52,7 @@ namespace _3ParMonitoring.WSAPI
         }
         public void StatMemory()
         {
-            string url = urlWsapi + "systemreporter/attime/cpustatistics/hires;groupby:node";
+            string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/hires";
             Action<string> callBack = (str) =>
             {
 
@@ -68,7 +68,15 @@ namespace _3ParMonitoring.WSAPI
             };
             WebClientManager.Get(url, sessionKey, callBack);
         }
+        public void QuaryCPGs()
+        {
+            string url = urlWsapi + "cpgs";
+            Action<string> callBack = (str) =>
+            {
 
+            };
+            WebClientManager.Get(url, sessionKey, callBack);
+        }
         public void GetSystemInfo()
         {
             string url = urlWsapi + "system";
