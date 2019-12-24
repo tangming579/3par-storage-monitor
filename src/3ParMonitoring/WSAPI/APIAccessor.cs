@@ -16,7 +16,7 @@ namespace _3ParMonitoring.WSAPI
     public class APIAccessor
     {
         private string urlWsapi;
-        private string sessionKey = "0-9503ea1a22d0d4410ed165920b891c79-c27c005e";
+        private string sessionKey;
         private bool credentialed;
 
         public APIAccessor(string urlWsapi, string user, string password)

@@ -55,46 +55,52 @@ namespace _3ParMonitoring
             client.UploadDataAsync(new Uri(url), "POST", postData);
         }
 
-        public static void Get(string url, string sessionKey, Action<string> callback)
+        public static void Get(string url, string sessionKey, Action<ResponseResult> callback)
         {
             var client = CreateWebClient(sessionKey);
-            client.DownloadDataCompleted += (sender, e) =>
+            client.DownloadStringCompleted += (sender, e) =>
             {
                 string result = string.Empty;
                 try
                 {
-                    if (e.Error != null && e.Error is WebException)
+                    if (e.Error != null)
                     {
-                        WebException we = (WebException)e.Error;
-                        using (HttpWebResponse hr = (HttpWebResponse)we.Response)
+                        if (e.Error is WebException)
                         {
-                            int statusCode = (int)hr.StatusCode;
-                            StringBuilder sb = new StringBuilder();
-                            StreamReader sr = new StreamReader(hr.GetResponseStream(), Encoding.UTF8);
-                            sb.Append(sr.ReadToEnd());
-                            callback?.Invoke(sb.ToString());
+                            WebException we = (WebException)e.Error;
+                            using (HttpWebResponse hr = (HttpWebResponse)we.Response)
+                            {
+                                int statusCode = (int)hr.StatusCode;
+                                using (StreamReader sr = new StreamReader(hr.GetResponseStream(), Encoding.UTF8))
+                                {
+                                    var resResult = new ResponseResult() { IsSuccess = false };
+                                    resResult.Result = JObject.Parse(e.Result);
+                                    resResult.StatusCode = statusCode;
+                                    callback?.Invoke(resResult);
+                                }
+                            };
+                        }
+                        else
+                        {
+                            var resResult = new ResponseResult() { IsSuccess = false };
+                            callback?.Invoke(resResult);
                         }
                     }
                     else
                     {
-                        result = Encoding.UTF8.GetString(e.Result);
-                        callback?.Invoke(result);
+                        var resResult = new ResponseResult() { IsSuccess = true };
+                        resResult.Result = JObject.Parse(e.Result);
+                        resResult.StatusCode = 200;
+                        callback?.Invoke(resResult);
                     }
 
-                }
-                catch (WebException ex)
-                {
-                    if (ex.GetType().Name == "WebException")
-                    {
-
-                    }
                 }
                 catch (Exception exp)
                 {
                     result = "Error:" + (exp.InnerException?.Message ?? exp.Message);
                 }
             };
-            client.DownloadDataAsync(new Uri(url));
+            client.DownloadStringAsync(new Uri(url));
         }
 
         static ParWebClient CreateWebClient(string sessionKey)
@@ -112,6 +118,8 @@ namespace _3ParMonitoring
     public class ParWebClient : WebClient
     {
         private int timeOut;
+        private HttpWebRequest request = null;
+
         public ParWebClient()
         {
             this.timeOut = int.Parse(ConfigurationManager.AppSettings["webClientTimeOut"]);
@@ -120,10 +128,43 @@ namespace _3ParMonitoring
 
         protected override WebRequest GetWebRequest(Uri address)
         {
-            HttpWebRequest request = (HttpWebRequest)base.GetWebRequest(address);
+            request = (HttpWebRequest)base.GetWebRequest(address);
             request.Timeout = timeOut;
             request.ReadWriteTimeout = timeOut;
             return request;
         }
+
+        public HttpStatusCode StatusCode()
+        {
+            HttpStatusCode result;
+
+            if (this.request == null)
+            {
+                throw (new InvalidOperationException("Unable to retrieve the status code," +
+                    " maybe you haven't made a request yet."));
+            }
+
+            HttpWebResponse response = base.GetWebResponse(this.request) as HttpWebResponse;
+
+            if (response != null)
+            {
+                result = response.StatusCode;
+            }
+            else
+            {
+                throw (new InvalidOperationException("Unable to retrieve the status " +
+                    "code, maybe you haven't made a request yet."));
+            }
+            return result;
+        }
+    }
+
+    public class ResponseResult
+    {
+        public int StatusCode { get; set; }
+
+        public bool IsSuccess { get; set; }
+
+        public JObject Result { get; set; }
     }
 }
