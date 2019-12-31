@@ -118,7 +118,7 @@ namespace _3ParMonitoring
     public class ParWebClient : WebClient
     {
         private int timeOut;
-        private HttpWebRequest request = null;
+        private WebRequest request = null;
 
         public ParWebClient()
         {
@@ -128,9 +128,13 @@ namespace _3ParMonitoring
 
         protected override WebRequest GetWebRequest(Uri address)
         {
-            request = (HttpWebRequest)base.GetWebRequest(address);
+            request = base.GetWebRequest(address);
             request.Timeout = timeOut;
-            request.ReadWriteTimeout = timeOut;
+            if (this.request is HttpWebRequest)
+            {
+                ((HttpWebRequest)request).ReadWriteTimeout = timeOut;
+                ((HttpWebRequest)request).AllowAutoRedirect = false;
+            }
             return request;
         }
 
@@ -143,9 +147,7 @@ namespace _3ParMonitoring
                 throw (new InvalidOperationException("Unable to retrieve the status code," +
                     " maybe you haven't made a request yet."));
             }
-
             HttpWebResponse response = base.GetWebResponse(this.request) as HttpWebResponse;
-
             if (response != null)
             {
                 result = response.StatusCode;

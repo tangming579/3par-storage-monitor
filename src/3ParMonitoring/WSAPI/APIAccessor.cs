@@ -18,16 +18,22 @@ namespace _3ParMonitoring.WSAPI
         private string urlWsapi;
         private string sessionKey;
         private bool credentialed;
+        private DateTime sessionKeyTime;
 
         public APIAccessor(string urlWsapi, string user, string password)
         {
             this.urlWsapi = urlWsapi;
+            sessionKeyTime = DateTime.MinValue;
             GetSessionKey(user, password);
         }
 
         public void GetSessionKey(string user, string password)
         {
-            if (sessionKey != null) return;
+            var totalSecond = (DateTime.Now - sessionKeyTime).TotalSeconds;
+            //SessionKey is not repeated within 10s
+            if (totalSecond < 10) return;
+            sessionKeyTime = DateTime.Now;
+
             string url = urlWsapi + "credentials";
             var jdata = new JObject();
             jdata["user"] = user;
@@ -44,7 +50,7 @@ namespace _3ParMonitoring.WSAPI
         public void StatCPU()
         {
             string url = urlWsapi + "systemreporter/attime/cpustatistics/hires;groupby:node";
-            Action<string> callBack = (str) =>
+            Action<ResponseResult> callBack = (result) =>
             {
 
             };
@@ -53,7 +59,7 @@ namespace _3ParMonitoring.WSAPI
         public void StatMemory()
         {
             string url = urlWsapi + "systemreporter/vstime/cachememorystatistics/hires";
-            Action<string> callBack = (str) =>
+            Action<ResponseResult> callBack = (result) =>
             {
 
             };
@@ -62,7 +68,7 @@ namespace _3ParMonitoring.WSAPI
         public void QuaryAllPorts()
         {
             string url = urlWsapi + "ports";
-            Action<string> callBack = (str) =>
+            Action<ResponseResult> callBack = (result) =>
             {
 
             };
@@ -71,7 +77,7 @@ namespace _3ParMonitoring.WSAPI
         public void QuaryCPGs()
         {
             string url = urlWsapi + "cpgs";
-            Action<string> callBack = (str) =>
+            Action<ResponseResult> callBack = (result) =>
             {
 
             };
@@ -80,7 +86,7 @@ namespace _3ParMonitoring.WSAPI
         public void GetSystemInfo()
         {
             string url = urlWsapi + "system";
-            Action<string> callBack = (str) =>
+            Action<ResponseResult> callBack = (result) =>
             {
 
             };
