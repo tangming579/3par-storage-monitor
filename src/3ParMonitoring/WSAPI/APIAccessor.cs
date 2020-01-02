@@ -21,6 +21,7 @@ namespace _3ParMonitoring.WSAPI
         private string user;
         private string password;
         private DateTime sessionKeyTime;
+        private List<CPUData> cpuDatas = new List<CPUData>();
 
         public APIAccessor(string urlWsapi, string user, string password)
         {
@@ -59,7 +60,7 @@ namespace _3ParMonitoring.WSAPI
             {
                 if (!result.IsSuccess)
                 {
-                    if(result.StatusCode==403)
+                    if (result.StatusCode == 403)
                     {
                         var code = result.Result["code"] + "";
                         if (string.Equals(code, "6"))
@@ -72,9 +73,14 @@ namespace _3ParMonitoring.WSAPI
                 else
                 {
                     var members = result.Result.SelectToken("members") as JArray;
-                    foreach(var member in members)
+                    foreach (var member in members)
                     {
-                        
+                        cpuDatas.Add(new CPUData
+                        {
+                            node = "CPU_" + member.SelectToken("node"),
+                            data = 100 - float.Parse(member.SelectToken("idlePct") + ""),
+                            time = DateTime.Now.Ticks
+                        });
                     }
                 }
             };
@@ -116,5 +122,12 @@ namespace _3ParMonitoring.WSAPI
             };
             WebClientManager.Get(url, sessionKey, callBack);
         }
+    }
+
+    public class CPUData
+    {
+        public string node { get; set; }
+        public float data { get; set; }
+        public long time { get; set; }
     }
 }
