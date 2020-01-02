@@ -18,11 +18,15 @@ namespace _3ParMonitoring.WSAPI
         private string urlWsapi;
         private string sessionKey;
         private bool credentialed;
+        private string user;
+        private string password;
         private DateTime sessionKeyTime;
 
         public APIAccessor(string urlWsapi, string user, string password)
         {
             this.urlWsapi = urlWsapi;
+            this.user = user;
+            this.password = password;
             sessionKeyTime = DateTime.MinValue;
             GetSessionKey(user, password);
         }
@@ -43,6 +47,7 @@ namespace _3ParMonitoring.WSAPI
              {
                  JObject obj = JObject.Parse(str);
                  sessionKey = obj.SelectToken("key") + "";
+                 credentialed = true;
              };
             WebClientManager.Post(url, jdata + "", null, callBack);
         }
@@ -52,7 +57,26 @@ namespace _3ParMonitoring.WSAPI
             string url = urlWsapi + "systemreporter/attime/cpustatistics/hires;groupby:node";
             Action<ResponseResult> callBack = (result) =>
             {
-
+                if (!result.IsSuccess)
+                {
+                    if(result.StatusCode==403)
+                    {
+                        var code = result.Result["code"] + "";
+                        if (string.Equals(code, "6"))
+                        {
+                            credentialed = false;
+                            GetSessionKey(user, password);
+                        }
+                    }
+                }
+                else
+                {
+                    var members = result.Result.SelectToken("members") as JArray;
+                    foreach(var member in members)
+                    {
+                        
+                    }
+                }
             };
             WebClientManager.Get(url, sessionKey, callBack);
         }

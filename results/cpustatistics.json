@@ -1,0 +1,29 @@
+{{
+  "sampleTime": "2020-01-02T10:25:00+08:00",
+  "sampleTimeSec": 1577931900,
+  "total": 2,
+  "members": [
+    {
+      "node": 0,
+      "userPct": 1.4,
+      "systemPct": 0.7,
+      "idlePct": 97.9,
+      "interruptsPerSec": 4373.5,
+      "contextSwitchesPerSec": 8069.8
+    },
+    {
+      "node": 1,
+      "userPct": 1.8,
+      "systemPct": 0.8,
+      "idlePct": 97.5,
+      "interruptsPerSec": 5463.3,
+      "contextSwitchesPerSec": 10207.2
+    }
+  ],
+  "links": [
+    {
+      "href": "https://192.168.128.151:8080/api/v1/systemreporter/attime/cpustatistics/hires;groupby:node",
+      "rel": "self"
+    }
+  ]
+}}

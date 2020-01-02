@@ -1,0 +1,7787 @@
+{{
+  "total": 144,
+  "members": [
+    {
+      "sampleTime": "2020-01-01T22:30:00+08:00",
+      "sampleTimeSec": 1577889000,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 29.7
+      },
+      "totalAccessIO": 49.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 906048.0,
+          "clean": 913864.0,
+          "writeOnce": 23.0,
+          "writeMultiple": 64.0,
+          "writeScheduled": 161.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 248.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T22:35:00+08:00",
+      "sampleTimeSec": 1577889300,
+      "hitIO": {
+        "read": 31.0,
+        "write": 18.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 18.8
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 37.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 49.7
+      },
+      "totalAccessIO": 68.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 904993.0,
+          "clean": 914930.0,
+          "writeOnce": 158.0,
+          "writeMultiple": 56.0,
+          "writeScheduled": 8.0,
+          "writing": 31.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 253.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T22:40:00+08:00",
+      "sampleTimeSec": 1577889600,
+      "hitIO": {
+        "read": 30.8,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 17.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.4
+      },
+      "totalAccessIO": 48.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 905047.0,
+          "clean": 914936.0,
+          "writeOnce": 120.0,
+          "writeMultiple": 72.0,
+          "writeScheduled": 58.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 250.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T22:45:00+08:00",
+      "sampleTimeSec": 1577889900,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.0
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.1
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.0
+      },
+      "totalAccessIO": 48.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 905073.0,
+          "clean": 914936.0,
+          "writeOnce": 112.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 73.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 253.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T22:50:00+08:00",
+      "sampleTimeSec": 1577890200,
+      "hitIO": {
+        "read": 30.8,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 17.9
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.3
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902919.0,
+          "clean": 915045.0,
+          "writeOnce": 109.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 81.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 249.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T22:55:00+08:00",
+      "sampleTimeSec": 1577890500,
+      "hitIO": {
+        "read": 30.6,
+        "write": 5.0
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 30.9,
+        "write": 16.3
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.0
+      },
+      "totalAccessIO": 47.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902948.0,
+          "clean": 915059.0,
+          "writeOnce": 27.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 148.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 241.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:00:00+08:00",
+      "sampleTimeSec": 1577890800,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.6
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 19.1
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 28.7
+      },
+      "totalAccessIO": 50.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902982.0,
+          "clean": 914846.0,
+          "writeOnce": 188.0,
+          "writeMultiple": 110.0,
+          "writeScheduled": 163.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 461.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:05:00+08:00",
+      "sampleTimeSec": 1577891100,
+      "hitIO": {
+        "read": 31.0,
+        "write": 19.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.5
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 38.8
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 49.7
+      },
+      "totalAccessIO": 70.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903043.0,
+          "clean": 915068.0,
+          "writeOnce": 24.0,
+          "writeMultiple": 28.0,
+          "writeScheduled": 198.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 250.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:10:00+08:00",
+      "sampleTimeSec": 1577891400,
+      "hitIO": {
+        "read": 31.0,
+        "write": 6.6
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 13.3
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 19.9
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 33.0
+      },
+      "totalAccessIO": 51.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900991.0,
+          "clean": 915076.0,
+          "writeOnce": 16.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 205.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 251.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:15:00+08:00",
+      "sampleTimeSec": 1577891700,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 16.9
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.1
+      },
+      "totalAccessIO": 48.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903091.0,
+          "clean": 915072.0,
+          "writeOnce": 57.0,
+          "writeMultiple": 62.0,
+          "writeScheduled": 146.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 265.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:20:00+08:00",
+      "sampleTimeSec": 1577892000,
+      "hitIO": {
+        "read": 30.2,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.3
+      },
+      "accessIO": {
+        "read": 30.5,
+        "write": 18.7
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 28.8
+      },
+      "totalAccessIO": 49.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 905185.0,
+          "clean": 915046.0,
+          "writeOnce": 155.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 71.0,
+          "writing": 9.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 301.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:25:00+08:00",
+      "sampleTimeSec": 1577892300,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.6
+      },
+      "totalAccessIO": 47.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903144.0,
+          "clean": 915112.0,
+          "writeOnce": 37.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 131.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:30:00+08:00",
+      "sampleTimeSec": 1577892600,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 18.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.2
+      },
+      "totalAccessIO": 49.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903186.0,
+          "clean": 915118.0,
+          "writeOnce": 27.0,
+          "writeMultiple": 29.0,
+          "writeScheduled": 181.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 237.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:35:00+08:00",
+      "sampleTimeSec": 1577892900,
+      "hitIO": {
+        "read": 31.3,
+        "write": 19.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 18.4
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 37.8
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 51.2
+      },
+      "totalAccessIO": 69.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902161.0,
+          "clean": 916195.0,
+          "writeOnce": 121.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 56.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 236.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:40:00+08:00",
+      "sampleTimeSec": 1577893200,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.1
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 18.6
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.8
+      },
+      "totalAccessIO": 49.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902185.0,
+          "clean": 916198.0,
+          "writeOnce": 106.0,
+          "writeMultiple": 53.0,
+          "writeScheduled": 59.0,
+          "writing": 19.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 237.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:45:00+08:00",
+      "sampleTimeSec": 1577893500,
+      "hitIO": {
+        "read": 31.3,
+        "write": 4.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.0
+      },
+      "totalAccessIO": 48.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902254.0,
+          "clean": 916185.0,
+          "writeOnce": 141.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 49.0,
+          "writing": 5.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 254.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:50:00+08:00",
+      "sampleTimeSec": 1577893800,
+      "hitIO": {
+        "read": 29.9,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.0
+      },
+      "accessIO": {
+        "read": 30.1,
+        "write": 18.4
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.2
+      },
+      "totalAccessIO": 48.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902300.0,
+          "clean": 916201.0,
+          "writeOnce": 35.0,
+          "writeMultiple": 34.0,
+          "writeScheduled": 172.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 241.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-01T23:55:00+08:00",
+      "sampleTimeSec": 1577894100,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 31.2
+      },
+      "totalAccessIO": 48.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 904428.0,
+          "clean": 916216.0,
+          "writeOnce": 17.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 182.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 229.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:00:00+08:00",
+      "sampleTimeSec": 1577894400,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.7
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.6
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 19.3
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.5
+      },
+      "totalAccessIO": 50.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 904383.0,
+          "clean": 915870.0,
+          "writeOnce": 245.0,
+          "writeMultiple": 139.0,
+          "writeScheduled": 120.0,
+          "writing": 75.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 579.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:05:00+08:00",
+      "sampleTimeSec": 1577894700,
+      "hitIO": {
+        "read": 31.1,
+        "write": 21.7
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 20.6
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 42.3
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 51.3
+      },
+      "totalAccessIO": 73.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902367.0,
+          "clean": 916245.0,
+          "writeOnce": 38.0,
+          "writeMultiple": 84.0,
+          "writeScheduled": 133.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 255.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:10:00+08:00",
+      "sampleTimeSec": 1577895000,
+      "hitIO": {
+        "read": 31.0,
+        "write": 7.4
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 13.1
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 20.6
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 36.2
+      },
+      "totalAccessIO": 51.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 904485.0,
+          "clean": 916265.0,
+          "writeOnce": 111.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 50.0,
+          "writing": 6.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:15:00+08:00",
+      "sampleTimeSec": 1577895300,
+      "hitIO": {
+        "read": 30.8,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.4
+      },
+      "totalAccessIO": 47.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903866.0,
+          "clean": 916337.0,
+          "writeOnce": 84.0,
+          "writeMultiple": 56.0,
+          "writeScheduled": 93.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 233.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:20:00+08:00",
+      "sampleTimeSec": 1577895600,
+      "hitIO": {
+        "read": 30.1,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.4
+      },
+      "accessIO": {
+        "read": 30.4,
+        "write": 17.9
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.1
+      },
+      "totalAccessIO": 48.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902407.0,
+          "clean": 916351.0,
+          "writeOnce": 19.0,
+          "writeMultiple": 35.0,
+          "writeScheduled": 168.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 222.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:25:00+08:00",
+      "sampleTimeSec": 1577895900,
+      "hitIO": {
+        "read": 31.6,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 31.8,
+        "write": 16.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.5
+      },
+      "totalAccessIO": 48.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902400.0,
+          "clean": 916371.0,
+          "writeOnce": 83.0,
+          "writeMultiple": 55.0,
+          "writeScheduled": 98.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 236.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:30:00+08:00",
+      "sampleTimeSec": 1577896200,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.7
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 18.3
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.1
+      },
+      "totalAccessIO": 49.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902398.0,
+          "clean": 916325.0,
+          "writeOnce": 127.0,
+          "writeMultiple": 83.0,
+          "writeScheduled": 108.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 318.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:35:00+08:00",
+      "sampleTimeSec": 1577896500,
+      "hitIO": {
+        "read": 30.8,
+        "write": 19.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 18.2
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 37.6
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 51.5
+      },
+      "totalAccessIO": 68.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903482.0,
+          "clean": 917423.0,
+          "writeOnce": 98.0,
+          "writeMultiple": 67.0,
+          "writeScheduled": 92.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 257.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:40:00+08:00",
+      "sampleTimeSec": 1577896800,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 17.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.3
+      },
+      "totalAccessIO": 48.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901434.0,
+          "clean": 917446.0,
+          "writeOnce": 30.0,
+          "writeMultiple": 31.0,
+          "writeScheduled": 176.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 237.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:45:00+08:00",
+      "sampleTimeSec": 1577897100,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 31.4
+      },
+      "totalAccessIO": 48.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901454.0,
+          "clean": 917447.0,
+          "writeOnce": 96.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 83.0,
+          "writing": 1.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 239.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:50:00+08:00",
+      "sampleTimeSec": 1577897400,
+      "hitIO": {
+        "read": 30.1,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 30.4,
+        "write": 17.7
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.1
+      },
+      "totalAccessIO": 48.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899404.0,
+          "clean": 917459.0,
+          "writeOnce": 98.0,
+          "writeMultiple": 62.0,
+          "writeScheduled": 71.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 231.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T00:55:00+08:00",
+      "sampleTimeSec": 1577897700,
+      "hitIO": {
+        "read": 30.5,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.0
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 33.0
+      },
+      "totalAccessIO": 47.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899431.0,
+          "clean": 917462.0,
+          "writeOnce": 29.0,
+          "writeMultiple": 42.0,
+          "writeScheduled": 160.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 231.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:00:00+08:00",
+      "sampleTimeSec": 1577898000,
+      "hitIO": {
+        "read": 30.8,
+        "write": 6.8
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 13.5
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 20.3
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 33.6
+      },
+      "totalAccessIO": 51.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901546.0,
+          "clean": 917227.0,
+          "writeOnce": 128.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 283.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 470.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:05:00+08:00",
+      "sampleTimeSec": 1577898300,
+      "hitIO": {
+        "read": 30.8,
+        "write": 20.1
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 19.3
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 39.3
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 51.0
+      },
+      "totalAccessIO": 70.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 902546.0,
+          "clean": 917470.0,
+          "writeOnce": 33.0,
+          "writeMultiple": 35.0,
+          "writeScheduled": 166.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 234.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:10:00+08:00",
+      "sampleTimeSec": 1577898600,
+      "hitIO": {
+        "read": 31.3,
+        "write": 6.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 19.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 33.7
+      },
+      "totalAccessIO": 51.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901646.0,
+          "clean": 917484.0,
+          "writeOnce": 16.0,
+          "writeMultiple": 25.0,
+          "writeScheduled": 182.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 223.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:15:00+08:00",
+      "sampleTimeSec": 1577898900,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 16.9
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.9
+      },
+      "totalAccessIO": 47.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901612.0,
+          "clean": 917480.0,
+          "writeOnce": 149.0,
+          "writeMultiple": 90.0,
+          "writeScheduled": 52.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 291.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:20:00+08:00",
+      "sampleTimeSec": 1577899200,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.3
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901670.0,
+          "clean": 917541.0,
+          "writeOnce": 36.0,
+          "writeMultiple": 37.0,
+          "writeScheduled": 159.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 232.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:25:00+08:00",
+      "sampleTimeSec": 1577899500,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.0
+      },
+      "totalAccessIO": 47.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 903782.0,
+          "clean": 917533.0,
+          "writeOnce": 31.0,
+          "writeMultiple": 29.0,
+          "writeScheduled": 184.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 244.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:30:00+08:00",
+      "sampleTimeSec": 1577899800,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.3
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 29.6
+      },
+      "totalAccessIO": 49.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 901610.0,
+          "clean": 917614.0,
+          "writeOnce": 37.0,
+          "writeMultiple": 91.0,
+          "writeScheduled": 119.0,
+          "writing": 22.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 269.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:35:00+08:00",
+      "sampleTimeSec": 1577900100,
+      "hitIO": {
+        "read": 31.3,
+        "write": 18.8
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 18.1
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 36.9
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 51.0
+      },
+      "totalAccessIO": 68.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900606.0,
+          "clean": 918698.0,
+          "writeOnce": 97.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 85.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 248.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:40:00+08:00",
+      "sampleTimeSec": 1577900400,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.2
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.5
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 28.5
+      },
+      "totalAccessIO": 49.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900461.0,
+          "clean": 918891.0,
+          "writeOnce": 84.0,
+          "writeMultiple": 52.0,
+          "writeScheduled": 93.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 229.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:45:00+08:00",
+      "sampleTimeSec": 1577900700,
+      "hitIO": {
+        "read": 30.2,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 30.4,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.2
+      },
+      "totalAccessIO": 46.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898377.0,
+          "clean": 918920.0,
+          "writeOnce": 112.0,
+          "writeMultiple": 82.0,
+          "writeScheduled": 41.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 235.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:50:00+08:00",
+      "sampleTimeSec": 1577901000,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 17.8
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 29.9
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898427.0,
+          "clean": 918939.0,
+          "writeOnce": 5.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 154.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 227.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T01:55:00+08:00",
+      "sampleTimeSec": 1577901300,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 31.6
+      },
+      "totalAccessIO": 47.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900543.0,
+          "clean": 918912.0,
+          "writeOnce": 37.0,
+          "writeMultiple": 35.0,
+          "writeScheduled": 186.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 258.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:00:00+08:00",
+      "sampleTimeSec": 1577901600,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.0
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 18.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.5
+      },
+      "totalAccessIO": 49.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900563.0,
+          "clean": 918758.0,
+          "writeOnce": 79.0,
+          "writeMultiple": 130.0,
+          "writeScheduled": 213.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 422.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:05:00+08:00",
+      "sampleTimeSec": 1577901900,
+      "hitIO": {
+        "read": 31.2,
+        "write": 20.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.7
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 40.3
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 51.1
+      },
+      "totalAccessIO": 71.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900612.0,
+          "clean": 918965.0,
+          "writeOnce": 82.0,
+          "writeMultiple": 75.0,
+          "writeScheduled": 65.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 222.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:10:00+08:00",
+      "sampleTimeSec": 1577902200,
+      "hitIO": {
+        "read": 31.3,
+        "write": 6.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.0
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 19.6
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 33.7
+      },
+      "totalAccessIO": 51.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898561.0,
+          "clean": 918963.0,
+          "writeOnce": 36.0,
+          "writeMultiple": 35.0,
+          "writeScheduled": 156.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 227.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:15:00+08:00",
+      "sampleTimeSec": 1577902500,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 30.6,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.2
+      },
+      "totalAccessIO": 47.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898549.0,
+          "clean": 918993.0,
+          "writeOnce": 108.0,
+          "writeMultiple": 86.0,
+          "writeScheduled": 56.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 250.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:20:00+08:00",
+      "sampleTimeSec": 1577902800,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.0
+      },
+      "totalAccessIO": 48.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898586.0,
+          "clean": 919008.0,
+          "writeOnce": 19.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 149.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:25:00+08:00",
+      "sampleTimeSec": 1577903100,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.9
+      },
+      "totalAccessIO": 47.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900726.0,
+          "clean": 919015.0,
+          "writeOnce": 129.0,
+          "writeMultiple": 75.0,
+          "writeScheduled": 30.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 234.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:30:00+08:00",
+      "sampleTimeSec": 1577903400,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 28.2
+      },
+      "totalAccessIO": 49.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 900763.0,
+          "clean": 918981.0,
+          "writeOnce": 109.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 98.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 273.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:35:00+08:00",
+      "sampleTimeSec": 1577903700,
+      "hitIO": {
+        "read": 31.3,
+        "write": 19.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 18.2
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 37.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 51.8
+      },
+      "totalAccessIO": 69.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899737.0,
+          "clean": 920088.0,
+          "writeOnce": 87.0,
+          "writeMultiple": 63.0,
+          "writeScheduled": 77.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 227.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:40:00+08:00",
+      "sampleTimeSec": 1577904000,
+      "hitIO": {
+        "read": 30.2,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 30.4,
+        "write": 17.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.3
+      },
+      "totalAccessIO": 47.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895610.0,
+          "clean": 920084.0,
+          "writeOnce": 122.0,
+          "writeMultiple": 62.0,
+          "writeScheduled": 52.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 236.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:45:00+08:00",
+      "sampleTimeSec": 1577904300,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.1
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 16.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.4
+      },
+      "totalAccessIO": 47.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897721.0,
+          "clean": 920098.0,
+          "writeOnce": 111.0,
+          "writeMultiple": 61.0,
+          "writeScheduled": 52.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 224.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:50:00+08:00",
+      "sampleTimeSec": 1577904600,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.9
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.7
+      },
+      "totalAccessIO": 49.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899829.0,
+          "clean": 920094.0,
+          "writeOnce": 114.0,
+          "writeMultiple": 67.0,
+          "writeScheduled": 52.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 233.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T02:55:00+08:00",
+      "sampleTimeSec": 1577904900,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 16.7
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 30.9
+      },
+      "totalAccessIO": 48.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899863.0,
+          "clean": 920071.0,
+          "writeOnce": 134.0,
+          "writeMultiple": 62.0,
+          "writeScheduled": 64.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 260.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:00:00+08:00",
+      "sampleTimeSec": 1577905200,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.8
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 18.3
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.0
+      },
+      "totalAccessIO": 49.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899889.0,
+          "clean": 919854.0,
+          "writeOnce": 143.0,
+          "writeMultiple": 89.0,
+          "writeScheduled": 249.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 481.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:05:00+08:00",
+      "sampleTimeSec": 1577905500,
+      "hitIO": {
+        "read": 30.8,
+        "write": 19.9
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 19.9
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 39.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 50.1
+      },
+      "totalAccessIO": 70.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897853.0,
+          "clean": 920085.0,
+          "writeOnce": 101.0,
+          "writeMultiple": 79.0,
+          "writeScheduled": 74.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 254.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:10:00+08:00",
+      "sampleTimeSec": 1577905800,
+      "hitIO": {
+        "read": 30.7,
+        "write": 6.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.5
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 19.8
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.8
+      },
+      "totalAccessIO": 50.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899972.0,
+          "clean": 920103.0,
+          "writeOnce": 30.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 141.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 239.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:15:00+08:00",
+      "sampleTimeSec": 1577906100,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 17.0
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.3
+      },
+      "totalAccessIO": 48.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897918.0,
+          "clean": 920079.0,
+          "writeOnce": 28.0,
+          "writeMultiple": 34.0,
+          "writeScheduled": 204.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 266.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:20:00+08:00",
+      "sampleTimeSec": 1577906400,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 29.6
+      },
+      "totalAccessIO": 49.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895837.0,
+          "clean": 920091.0,
+          "writeOnce": 45.0,
+          "writeMultiple": 37.0,
+          "writeScheduled": 169.0,
+          "writing": 9.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 260.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:25:00+08:00",
+      "sampleTimeSec": 1577906700,
+      "hitIO": {
+        "read": 31.8,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 32.1,
+        "write": 16.7
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 32.1
+      },
+      "totalAccessIO": 48.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897984.0,
+          "clean": 920112.0,
+          "writeOnce": 29.0,
+          "writeMultiple": 58.0,
+          "writeScheduled": 155.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 242.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:30:00+08:00",
+      "sampleTimeSec": 1577907000,
+      "hitIO": {
+        "read": 31.9,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 32.2,
+        "write": 18.3
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 29.8
+      },
+      "totalAccessIO": 50.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898009.0,
+          "clean": 920083.0,
+          "writeOnce": 117.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 105.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 290.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:35:00+08:00",
+      "sampleTimeSec": 1577907300,
+      "hitIO": {
+        "read": 30.7,
+        "write": 19.0
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 17.8
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 36.8
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 51.7
+      },
+      "totalAccessIO": 67.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897020.0,
+          "clean": 921166.0,
+          "writeOnce": 87.0,
+          "writeMultiple": 56.0,
+          "writeScheduled": 106.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 249.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:40:00+08:00",
+      "sampleTimeSec": 1577907600,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.8
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 18.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.5
+      },
+      "totalAccessIO": 49.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897031.0,
+          "clean": 921208.0,
+          "writeOnce": 95.0,
+          "writeMultiple": 80.0,
+          "writeScheduled": 18.0,
+          "writing": 24.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 217.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:45:00+08:00",
+      "sampleTimeSec": 1577907900,
+      "hitIO": {
+        "read": 30.8,
+        "write": 6.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.0,
+        "write": 18.4
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 33.6
+      },
+      "totalAccessIO": 49.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897035.0,
+          "clean": 921281.0,
+          "writeOnce": 26.0,
+          "writeMultiple": 29.0,
+          "writeScheduled": 157.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 212.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:50:00+08:00",
+      "sampleTimeSec": 1577908200,
+      "hitIO": {
+        "read": 31.7,
+        "write": 6.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.0
+      },
+      "accessIO": {
+        "read": 31.9,
+        "write": 19.1
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.8
+      },
+      "totalAccessIO": 51.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899142.0,
+          "clean": 921263.0,
+          "writeOnce": 36.0,
+          "writeMultiple": 73.0,
+          "writeScheduled": 123.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 232.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T03:55:00+08:00",
+      "sampleTimeSec": 1577908500,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.8
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 32.1
+      },
+      "totalAccessIO": 48.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899164.0,
+          "clean": 921260.0,
+          "writeOnce": 100.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 68.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:00:00+08:00",
+      "sampleTimeSec": 1577908800,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.1
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 18.7
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.7
+      },
+      "totalAccessIO": 49.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897111.0,
+          "clean": 921062.0,
+          "writeOnce": 155.0,
+          "writeMultiple": 73.0,
+          "writeScheduled": 220.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 448.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:05:00+08:00",
+      "sampleTimeSec": 1577909100,
+      "hitIO": {
+        "read": 30.9,
+        "write": 20.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.9
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 40.2
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 50.6
+      },
+      "totalAccessIO": 71.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 899220.0,
+          "clean": 921264.0,
+          "writeOnce": 118.0,
+          "writeMultiple": 65.0,
+          "writeScheduled": 77.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 260.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:10:00+08:00",
+      "sampleTimeSec": 1577909400,
+      "hitIO": {
+        "read": 31.2,
+        "write": 12.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 15.7
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 28.2
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 44.5
+      },
+      "totalAccessIO": 59.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894981.0,
+          "clean": 921298.0,
+          "writeOnce": 92.0,
+          "writeMultiple": 65.0,
+          "writeScheduled": 55.0,
+          "writing": 30.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 242.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:15:00+08:00",
+      "sampleTimeSec": 1577909700,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.1
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 16.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.5
+      },
+      "totalAccessIO": 47.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895096.0,
+          "clean": 921321.0,
+          "writeOnce": 76.0,
+          "writeMultiple": 52.0,
+          "writeScheduled": 94.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 222.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:20:00+08:00",
+      "sampleTimeSec": 1577910000,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 17.3
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 29.7
+      },
+      "totalAccessIO": 48.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897208.0,
+          "clean": 921309.0,
+          "writeOnce": 26.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 141.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:25:00+08:00",
+      "sampleTimeSec": 1577910300,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 32.0
+      },
+      "totalAccessIO": 47.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897243.0,
+          "clean": 921302.0,
+          "writeOnce": 140.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 40.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 248.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:30:00+08:00",
+      "sampleTimeSec": 1577910600,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.7
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 18.1
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.9
+      },
+      "totalAccessIO": 49.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897281.0,
+          "clean": 921293.0,
+          "writeOnce": 117.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 72.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 260.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:35:00+08:00",
+      "sampleTimeSec": 1577910900,
+      "hitIO": {
+        "read": 30.2,
+        "write": 18.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 18.3
+      },
+      "accessIO": {
+        "read": 30.6,
+        "write": 36.7
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 50.2
+      },
+      "totalAccessIO": 67.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894125.0,
+          "clean": 922411.0,
+          "writeOnce": 18.0,
+          "writeMultiple": 76.0,
+          "writeScheduled": 151.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 245.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:40:00+08:00",
+      "sampleTimeSec": 1577911200,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 17.5
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 30.1
+      },
+      "totalAccessIO": 48.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894169.0,
+          "clean": 922424.0,
+          "writeOnce": 36.0,
+          "writeMultiple": 36.0,
+          "writeScheduled": 165.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 237.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:45:00+08:00",
+      "sampleTimeSec": 1577911500,
+      "hitIO": {
+        "read": 30.8,
+        "write": 4.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 16.1
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 30.6
+      },
+      "totalAccessIO": 47.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896196.0,
+          "clean": 922498.0,
+          "writeOnce": 122.0,
+          "writeMultiple": 72.0,
+          "writeScheduled": 60.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 254.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:50:00+08:00",
+      "sampleTimeSec": 1577911800,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 18.4
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.6
+      },
+      "totalAccessIO": 49.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896228.0,
+          "clean": 922508.0,
+          "writeOnce": 28.0,
+          "writeMultiple": 28.0,
+          "writeScheduled": 192.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 248.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T04:55:00+08:00",
+      "sampleTimeSec": 1577912100,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.6
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 16.9
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 31.6
+      },
+      "totalAccessIO": 48.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896261.0,
+          "clean": 922513.0,
+          "writeOnce": 25.0,
+          "writeMultiple": 75.0,
+          "writeScheduled": 146.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 246.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:00:00+08:00",
+      "sampleTimeSec": 1577912400,
+      "hitIO": {
+        "read": 35.4,
+        "write": 6.8
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 13.2
+      },
+      "accessIO": {
+        "read": 35.8,
+        "write": 20.0
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 33.9
+      },
+      "totalAccessIO": 55.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896114.0,
+          "clean": 922507.0,
+          "writeOnce": 194.0,
+          "writeMultiple": 102.0,
+          "writeScheduled": 141.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 437.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:05:00+08:00",
+      "sampleTimeSec": 1577912700,
+      "hitIO": {
+        "read": 30.2,
+        "write": 20.0
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.8
+      },
+      "accessIO": {
+        "read": 30.5,
+        "write": 39.8
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 50.2
+      },
+      "totalAccessIO": 70.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 898252.0,
+          "clean": 922693.0,
+          "writeOnce": 39.0,
+          "writeMultiple": 34.0,
+          "writeScheduled": 185.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 258.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:10:00+08:00",
+      "sampleTimeSec": 1577913000,
+      "hitIO": {
+        "read": 31.1,
+        "write": 6.7
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.4
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 20.1
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 33.3
+      },
+      "totalAccessIO": 51.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894128.0,
+          "clean": 922703.0,
+          "writeOnce": 35.0,
+          "writeMultiple": 44.0,
+          "writeScheduled": 172.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 251.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:15:00+08:00",
+      "sampleTimeSec": 1577913300,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 31.4
+      },
+      "totalAccessIO": 47.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896213.0,
+          "clean": 922710.0,
+          "writeOnce": 134.0,
+          "writeMultiple": 74.0,
+          "writeScheduled": 14.0,
+          "writing": 25.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 247.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:20:00+08:00",
+      "sampleTimeSec": 1577913600,
+      "hitIO": {
+        "read": 31.4,
+        "write": 4.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.8,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 98.9,
+        "write": 28.0
+      },
+      "totalAccessIO": 49.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896277.0,
+          "clean": 922730.0,
+          "writeOnce": 22.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 179.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 231.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:25:00+08:00",
+      "sampleTimeSec": 1577913900,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.6
+      },
+      "accessIO": {
+        "read": 31.5,
+        "write": 16.8
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 31.1
+      },
+      "totalAccessIO": 48.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896300.0,
+          "clean": 922725.0,
+          "writeOnce": 25.0,
+          "writeMultiple": 79.0,
+          "writeScheduled": 134.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:30:00+08:00",
+      "sampleTimeSec": 1577914200,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.2
+      },
+      "totalAccessIO": 49.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 896327.0,
+          "clean": 922721.0,
+          "writeOnce": 29.0,
+          "writeMultiple": 89.0,
+          "writeScheduled": 142.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 260.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:35:00+08:00",
+      "sampleTimeSec": 1577914500,
+      "hitIO": {
+        "read": 31.2,
+        "write": 18.8
+      },
+      "missIO": {
+        "read": 0.5,
+        "write": 18.2
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 37.0
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 50.8
+      },
+      "totalAccessIO": 68.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897381.0,
+          "clean": 923811.0,
+          "writeOnce": 115.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 57.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 243.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:40:00+08:00",
+      "sampleTimeSec": 1577914800,
+      "hitIO": {
+        "read": 31.9,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 32.3,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.5
+      },
+      "totalAccessIO": 50.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 897417.0,
+          "clean": 923836.0,
+          "writeOnce": 12.0,
+          "writeMultiple": 36.0,
+          "writeScheduled": 180.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 228.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:45:00+08:00",
+      "sampleTimeSec": 1577915100,
+      "hitIO": {
+        "read": 31.3,
+        "write": 4.9
+      },
+      "missIO": {
+        "read": 0.5,
+        "write": 11.6
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 98.5,
+        "write": 29.7
+      },
+      "totalAccessIO": 48.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895363.0,
+          "clean": 923822.0,
+          "writeOnce": 106.0,
+          "writeMultiple": 63.0,
+          "writeScheduled": 77.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 246.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:50:00+08:00",
+      "sampleTimeSec": 1577915400,
+      "hitIO": {
+        "read": 31.5,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.9,
+        "write": 17.7
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 29.7
+      },
+      "totalAccessIO": 49.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893312.0,
+          "clean": 923825.0,
+          "writeOnce": 28.0,
+          "writeMultiple": 33.0,
+          "writeScheduled": 186.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 247.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T05:55:00+08:00",
+      "sampleTimeSec": 1577915700,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 17.0
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 32.1
+      },
+      "totalAccessIO": 48.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893324.0,
+          "clean": 923857.0,
+          "writeOnce": 25.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 174.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 229.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:00:00+08:00",
+      "sampleTimeSec": 1577916000,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.7
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 18.1
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.0
+      },
+      "totalAccessIO": 49.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893336.0,
+          "clean": 923673.0,
+          "writeOnce": 203.0,
+          "writeMultiple": 116.0,
+          "writeScheduled": 96.0,
+          "writing": 11.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 426.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:05:00+08:00",
+      "sampleTimeSec": 1577916300,
+      "hitIO": {
+        "read": 31.8,
+        "write": 20.9
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 19.8
+      },
+      "accessIO": {
+        "read": 32.3,
+        "write": 40.7
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 51.4
+      },
+      "totalAccessIO": 72.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895476.0,
+          "clean": 923871.0,
+          "writeOnce": 127.0,
+          "writeMultiple": 52.0,
+          "writeScheduled": 57.0,
+          "writing": 3.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 239.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:10:00+08:00",
+      "sampleTimeSec": 1577916600,
+      "hitIO": {
+        "read": 30.9,
+        "write": 6.5
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 13.1
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 19.6
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 33.2
+      },
+      "totalAccessIO": 51.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893363.0,
+          "clean": 923939.0,
+          "writeOnce": 100.0,
+          "writeMultiple": 60.0,
+          "writeScheduled": 78.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:15:00+08:00",
+      "sampleTimeSec": 1577916900,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 17.4
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.0
+      },
+      "totalAccessIO": 49.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895474.0,
+          "clean": 923946.0,
+          "writeOnce": 119.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 53.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 243.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:20:00+08:00",
+      "sampleTimeSec": 1577917200,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.0
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 31.8,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.2
+      },
+      "totalAccessIO": 48.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895509.0,
+          "clean": 923967.0,
+          "writeOnce": 106.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 53.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 229.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:25:00+08:00",
+      "sampleTimeSec": 1577917500,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 17.7
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.8
+      },
+      "totalAccessIO": 49.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895519.0,
+          "clean": 923952.0,
+          "writeOnce": 114.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 65.0,
+          "writing": 7.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 256.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:30:00+08:00",
+      "sampleTimeSec": 1577917800,
+      "hitIO": {
+        "read": 30.3,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 30.7
+      },
+      "totalAccessIO": 47.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 895571.0,
+          "clean": 923984.0,
+          "writeOnce": 96.0,
+          "writeMultiple": 75.0,
+          "writeScheduled": 56.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 227.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:35:00+08:00",
+      "sampleTimeSec": 1577918100,
+      "hitIO": {
+        "read": 31.6,
+        "write": 19.1
+      },
+      "missIO": {
+        "read": 0.5,
+        "write": 20.1
+      },
+      "accessIO": {
+        "read": 32.0,
+        "write": 39.1
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 48.7
+      },
+      "totalAccessIO": 71.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892305.0,
+          "clean": 925195.0,
+          "writeOnce": 93.0,
+          "writeMultiple": 51.0,
+          "writeScheduled": 98.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 242.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:40:00+08:00",
+      "sampleTimeSec": 1577918400,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 31.8
+      },
+      "totalAccessIO": 48.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894427.0,
+          "clean": 925189.0,
+          "writeOnce": 134.0,
+          "writeMultiple": 65.0,
+          "writeScheduled": 53.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 252.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:45:00+08:00",
+      "sampleTimeSec": 1577918700,
+      "hitIO": {
+        "read": 30.3,
+        "write": 5.0
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 17.2
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 28.9
+      },
+      "totalAccessIO": 47.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894485.0,
+          "clean": 925205.0,
+          "writeOnce": 22.0,
+          "writeMultiple": 26.0,
+          "writeScheduled": 190.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:50:00+08:00",
+      "sampleTimeSec": 1577919000,
+      "hitIO": {
+        "read": 31.6,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 32.0,
+        "write": 17.0
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 31.3
+      },
+      "totalAccessIO": 49.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892436.0,
+          "clean": 925196.0,
+          "writeOnce": 18.0,
+          "writeMultiple": 31.0,
+          "writeScheduled": 202.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 251.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T06:55:00+08:00",
+      "sampleTimeSec": 1577919300,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.0
+      },
+      "accessIO": {
+        "read": 30.8,
+        "write": 17.4
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.7
+      },
+      "totalAccessIO": 48.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892491.0,
+          "clean": 925208.0,
+          "writeOnce": 104.0,
+          "writeMultiple": 86.0,
+          "writeScheduled": 52.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 242.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:00:00+08:00",
+      "sampleTimeSec": 1577919600,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.6
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894606.0,
+          "clean": 924987.0,
+          "writeOnce": 228.0,
+          "writeMultiple": 149.0,
+          "writeScheduled": 93.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 470.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:05:00+08:00",
+      "sampleTimeSec": 1577919900,
+      "hitIO": {
+        "read": 32.9,
+        "write": 20.0
+      },
+      "missIO": {
+        "read": 0.5,
+        "write": 20.5
+      },
+      "accessIO": {
+        "read": 33.4,
+        "write": 40.5
+      },
+      "hitPct": {
+        "read": 98.5,
+        "write": 49.3
+      },
+      "totalAccessIO": 73.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894582.0,
+          "clean": 925283.0,
+          "writeOnce": 131.0,
+          "writeMultiple": 70.0,
+          "writeScheduled": 48.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 249.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:10:00+08:00",
+      "sampleTimeSec": 1577920200,
+      "hitIO": {
+        "read": 31.0,
+        "write": 6.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.4
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.8
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 34.1
+      },
+      "totalAccessIO": 50.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 894604.0,
+          "clean": 925302.0,
+          "writeOnce": 30.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 132.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 233.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:15:00+08:00",
+      "sampleTimeSec": 1577920500,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 17.4
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.4
+      },
+      "totalAccessIO": 48.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892496.0,
+          "clean": 925261.0,
+          "writeOnce": 152.0,
+          "writeMultiple": 68.0,
+          "writeScheduled": 2.0,
+          "writing": 55.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 277.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:20:00+08:00",
+      "sampleTimeSec": 1577920800,
+      "hitIO": {
+        "read": 31.9,
+        "write": 5.0
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 32.3,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.4
+      },
+      "totalAccessIO": 48.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892582.0,
+          "clean": 925317.0,
+          "writeOnce": 27.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 167.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 224.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:25:00+08:00",
+      "sampleTimeSec": 1577921100,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 30.8,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.7
+      },
+      "totalAccessIO": 48.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892541.0,
+          "clean": 925370.0,
+          "writeOnce": 119.0,
+          "writeMultiple": 54.0,
+          "writeScheduled": 75.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 248.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:30:00+08:00",
+      "sampleTimeSec": 1577921400,
+      "hitIO": {
+        "read": 31.6,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 32.0,
+        "write": 16.9
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.8
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891329.0,
+          "clean": 925443.0,
+          "writeOnce": 101.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 61.0,
+          "writing": 54.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 282.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:35:00+08:00",
+      "sampleTimeSec": 1577921700,
+      "hitIO": {
+        "read": 31.0,
+        "write": 19.1
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 19.0
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 38.1
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 50.1
+      },
+      "totalAccessIO": 69.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891358.0,
+          "clean": 926656.0,
+          "writeOnce": 130.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 41.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 237.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:40:00+08:00",
+      "sampleTimeSec": 1577922000,
+      "hitIO": {
+        "read": 31.5,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 31.8,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.8
+      },
+      "totalAccessIO": 48.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891385.0,
+          "clean": 926652.0,
+          "writeOnce": 116.0,
+          "writeMultiple": 80.0,
+          "writeScheduled": 48.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 244.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:45:00+08:00",
+      "sampleTimeSec": 1577922300,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 17.3
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.9
+      },
+      "totalAccessIO": 49.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891354.0,
+          "clean": 926733.0,
+          "writeOnce": 22.0,
+          "writeMultiple": 28.0,
+          "writeScheduled": 181.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 231.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:50:00+08:00",
+      "sampleTimeSec": 1577922600,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.0
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 17.3
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.8
+      },
+      "totalAccessIO": 48.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891393.0,
+          "clean": 926736.0,
+          "writeOnce": 112.0,
+          "writeMultiple": 75.0,
+          "writeScheduled": 45.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 232.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T07:55:00+08:00",
+      "sampleTimeSec": 1577922900,
+      "hitIO": {
+        "read": 30.7,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.4
+      },
+      "totalAccessIO": 49.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891404.0,
+          "clean": 926780.0,
+          "writeOnce": 32.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 156.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 218.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:00:00+08:00",
+      "sampleTimeSec": 1577923200,
+      "hitIO": {
+        "read": 32.3,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.5,
+        "write": 12.2
+      },
+      "accessIO": {
+        "read": 32.8,
+        "write": 17.5
+      },
+      "hitPct": {
+        "read": 98.6,
+        "write": 30.3
+      },
+      "totalAccessIO": 50.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893515.0,
+          "clean": 926500.0,
+          "writeOnce": 244.0,
+          "writeMultiple": 135.0,
+          "writeScheduled": 123.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 502.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:05:00+08:00",
+      "sampleTimeSec": 1577923500,
+      "hitIO": {
+        "read": 35.6,
+        "write": 25.0
+      },
+      "missIO": {
+        "read": 1.6,
+        "write": 54.9
+      },
+      "accessIO": {
+        "read": 37.2,
+        "write": 79.9
+      },
+      "hitPct": {
+        "read": 95.8,
+        "write": 31.3
+      },
+      "totalAccessIO": 117.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 893064.0,
+          "clean": 927354.0,
+          "writeOnce": 27.0,
+          "writeMultiple": 32.0,
+          "writeScheduled": 196.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 255.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:10:00+08:00",
+      "sampleTimeSec": 1577923800,
+      "hitIO": {
+        "read": 31.5,
+        "write": 7.4
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.7
+      },
+      "accessIO": {
+        "read": 31.9,
+        "write": 20.1
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 36.9
+      },
+      "totalAccessIO": 52.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891017.0,
+          "clean": 927384.0,
+          "writeOnce": 29.0,
+          "writeMultiple": 33.0,
+          "writeScheduled": 166.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 228.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:15:00+08:00",
+      "sampleTimeSec": 1577924100,
+      "hitIO": {
+        "read": 31.2,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 18.1
+      },
+      "hitPct": {
+        "read": 98.7,
+        "write": 30.7
+      },
+      "totalAccessIO": 49.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891048.0,
+          "clean": 927326.0,
+          "writeOnce": 110.0,
+          "writeMultiple": 107.0,
+          "writeScheduled": 72.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 289.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:20:00+08:00",
+      "sampleTimeSec": 1577924400,
+      "hitIO": {
+        "read": 31.1,
+        "write": 4.8
+      },
+      "missIO": {
+        "read": 0.4,
+        "write": 11.1
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 16.0
+      },
+      "hitPct": {
+        "read": 98.8,
+        "write": 30.2
+      },
+      "totalAccessIO": 47.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891068.0,
+          "clean": 927374.0,
+          "writeOnce": 23.0,
+          "writeMultiple": 76.0,
+          "writeScheduled": 145.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 244.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:25:00+08:00",
+      "sampleTimeSec": 1577924700,
+      "hitIO": {
+        "read": 30.5,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 30.8,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 31.2
+      },
+      "totalAccessIO": 48.4,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892514.0,
+          "clean": 927369.0,
+          "writeOnce": 31.0,
+          "writeMultiple": 77.0,
+          "writeScheduled": 144.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 252.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:30:00+08:00",
+      "sampleTimeSec": 1577925000,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.7
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 17.3
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 32.2
+      },
+      "totalAccessIO": 48.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889014.0,
+          "clean": 927331.0,
+          "writeOnce": 117.0,
+          "writeMultiple": 85.0,
+          "writeScheduled": 117.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 319.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:35:00+08:00",
+      "sampleTimeSec": 1577925300,
+      "hitIO": {
+        "read": 31.4,
+        "write": 18.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.1
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 38.0
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 49.7
+      },
+      "totalAccessIO": 69.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890204.0,
+          "clean": 928329.0,
+          "writeOnce": 131.0,
+          "writeMultiple": 81.0,
+          "writeScheduled": 60.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 272.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:40:00+08:00",
+      "sampleTimeSec": 1577925600,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 16.3
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 31.2
+      },
+      "totalAccessIO": 47.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892311.0,
+          "clean": 928364.0,
+          "writeOnce": 35.0,
+          "writeMultiple": 40.0,
+          "writeScheduled": 166.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 241.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:45:00+08:00",
+      "sampleTimeSec": 1577925900,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 17.3
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 30.3
+      },
+      "totalAccessIO": 49.0,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892343.0,
+          "clean": 928368.0,
+          "writeOnce": 103.0,
+          "writeMultiple": 66.0,
+          "writeScheduled": 70.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 239.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:50:00+08:00",
+      "sampleTimeSec": 1577926200,
+      "hitIO": {
+        "read": 30.2,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 30.5,
+        "write": 16.6
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.1
+      },
+      "totalAccessIO": 47.1,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890287.0,
+          "clean": 928376.0,
+          "writeOnce": 24.0,
+          "writeMultiple": 26.0,
+          "writeScheduled": 184.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 234.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T08:55:00+08:00",
+      "sampleTimeSec": 1577926500,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.4
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 17.9
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.9
+      },
+      "totalAccessIO": 49.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 888193.0,
+          "clean": 928437.0,
+          "writeOnce": 11.0,
+          "writeMultiple": 74.0,
+          "writeScheduled": 140.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 225.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:00:00+08:00",
+      "sampleTimeSec": 1577926800,
+      "hitIO": {
+        "read": 35.4,
+        "write": 6.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 35.8,
+        "write": 18.9
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 35.0
+      },
+      "totalAccessIO": 54.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890080.0,
+          "clean": 928467.0,
+          "writeOnce": 135.0,
+          "writeMultiple": 59.0,
+          "writeScheduled": 242.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 436.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:05:00+08:00",
+      "sampleTimeSec": 1577927100,
+      "hitIO": {
+        "read": 30.8,
+        "write": 20.0
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 20.6
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 40.6
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 49.2
+      },
+      "totalAccessIO": 71.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 892207.0,
+          "clean": 928673.0,
+          "writeOnce": 110.0,
+          "writeMultiple": 61.0,
+          "writeScheduled": 63.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 234.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:10:00+08:00",
+      "sampleTimeSec": 1577927400,
+      "hitIO": {
+        "read": 31.0,
+        "write": 6.6
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.6
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 19.3
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 34.5
+      },
+      "totalAccessIO": 50.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890170.0,
+          "clean": 928671.0,
+          "writeOnce": 26.0,
+          "writeMultiple": 27.0,
+          "writeScheduled": 186.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 239.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:15:00+08:00",
+      "sampleTimeSec": 1577927700,
+      "hitIO": {
+        "read": 30.8,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 17.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.9
+      },
+      "totalAccessIO": 48.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890194.0,
+          "clean": 928689.0,
+          "writeOnce": 104.0,
+          "writeMultiple": 67.0,
+          "writeScheduled": 53.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 224.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:20:00+08:00",
+      "sampleTimeSec": 1577928000,
+      "hitIO": {
+        "read": 30.2,
+        "write": 4.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.4
+      },
+      "accessIO": {
+        "read": 30.5,
+        "write": 16.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.1
+      },
+      "totalAccessIO": 46.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890219.0,
+          "clean": 928686.0,
+          "writeOnce": 40.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 119.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 230.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:25:00+08:00",
+      "sampleTimeSec": 1577928300,
+      "hitIO": {
+        "read": 31.0,
+        "write": 5.7
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.5
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 18.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.3
+      },
+      "totalAccessIO": 49.5,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 890223.0,
+          "clean": 928705.0,
+          "writeOnce": 97.0,
+          "writeMultiple": 72.0,
+          "writeScheduled": 73.0,
+          "writing": 3.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 245.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:30:00+08:00",
+      "sampleTimeSec": 1577928600,
+      "hitIO": {
+        "read": 30.8,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.3
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 31.4
+      },
+      "totalAccessIO": 47.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 888172.0,
+          "clean": 928707.0,
+          "writeOnce": 24.0,
+          "writeMultiple": 36.0,
+          "writeScheduled": 186.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 246.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:35:00+08:00",
+      "sampleTimeSec": 1577928900,
+      "hitIO": {
+        "read": 30.7,
+        "write": 19.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 19.2
+      },
+      "accessIO": {
+        "read": 31.1,
+        "write": 38.2
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 49.8
+      },
+      "totalAccessIO": 69.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889245.0,
+          "clean": 929804.0,
+          "writeOnce": 20.0,
+          "writeMultiple": 30.0,
+          "writeScheduled": 163.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 213.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:40:00+08:00",
+      "sampleTimeSec": 1577929200,
+      "hitIO": {
+        "read": 30.9,
+        "write": 5.2
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.2
+      },
+      "accessIO": {
+        "read": 31.2,
+        "write": 16.4
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 31.9
+      },
+      "totalAccessIO": 47.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889266.0,
+          "clean": 929785.0,
+          "writeOnce": 31.0,
+          "writeMultiple": 35.0,
+          "writeScheduled": 170.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 236.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:45:00+08:00",
+      "sampleTimeSec": 1577929500,
+      "hitIO": {
+        "read": 31.4,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.3
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 17.6
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.9
+      },
+      "totalAccessIO": 49.3,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 891377.0,
+          "clean": 929794.0,
+          "writeOnce": 86.0,
+          "writeMultiple": 58.0,
+          "writeScheduled": 86.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 230.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:50:00+08:00",
+      "sampleTimeSec": 1577929800,
+      "hitIO": {
+        "read": 30.1,
+        "write": 5.0
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 30.4,
+        "write": 16.5
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 30.1
+      },
+      "totalAccessIO": 46.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 887241.0,
+          "clean": 929789.0,
+          "writeOnce": 101.0,
+          "writeMultiple": 55.0,
+          "writeScheduled": 85.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 241.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T09:55:00+08:00",
+      "sampleTimeSec": 1577930100,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.7
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 18.0
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.5
+      },
+      "totalAccessIO": 49.6,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 887288.0,
+          "clean": 929807.0,
+          "writeOnce": 108.0,
+          "writeMultiple": 63.0,
+          "writeScheduled": 57.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 228.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:00:00+08:00",
+      "sampleTimeSec": 1577930400,
+      "hitIO": {
+        "read": 33.5,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.1
+      },
+      "accessIO": {
+        "read": 33.8,
+        "write": 17.4
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 30.4
+      },
+      "totalAccessIO": 51.2,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889398.0,
+          "clean": 929575.0,
+          "writeOnce": 219.0,
+          "writeMultiple": 132.0,
+          "writeScheduled": 111.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 462.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:05:00+08:00",
+      "sampleTimeSec": 1577930700,
+      "hitIO": {
+        "read": 31.4,
+        "write": 20.1
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 20.9
+      },
+      "accessIO": {
+        "read": 31.7,
+        "write": 41.0
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 49.0
+      },
+      "totalAccessIO": 72.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889448.0,
+          "clean": 929819.0,
+          "writeOnce": 25.0,
+          "writeMultiple": 25.0,
+          "writeScheduled": 171.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 221.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:10:00+08:00",
+      "sampleTimeSec": 1577931000,
+      "hitIO": {
+        "read": 31.1,
+        "write": 6.9
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.7
+      },
+      "accessIO": {
+        "read": 31.3,
+        "write": 19.5
+      },
+      "hitPct": {
+        "read": 99.2,
+        "write": 35.2
+      },
+      "totalAccessIO": 50.9,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 887398.0,
+          "clean": 929802.0,
+          "writeOnce": 20.0,
+          "writeMultiple": 71.0,
+          "writeScheduled": 150.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 241.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:15:00+08:00",
+      "sampleTimeSec": 1577931300,
+      "hitIO": {
+        "read": 31.1,
+        "write": 5.4
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 13.0
+      },
+      "accessIO": {
+        "read": 31.4,
+        "write": 18.4
+      },
+      "hitPct": {
+        "read": 99.0,
+        "write": 29.3
+      },
+      "totalAccessIO": 49.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889510.0,
+          "clean": 929795.0,
+          "writeOnce": 96.0,
+          "writeMultiple": 54.0,
+          "writeScheduled": 101.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 251.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:20:00+08:00",
+      "sampleTimeSec": 1577931600,
+      "hitIO": {
+        "read": 30.4,
+        "write": 5.5
+      },
+      "missIO": {
+        "read": 0.2,
+        "write": 11.5
+      },
+      "accessIO": {
+        "read": 30.7,
+        "write": 17.0
+      },
+      "hitPct": {
+        "read": 99.3,
+        "write": 32.5
+      },
+      "totalAccessIO": 47.7,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 889545.0,
+          "clean": 929802.0,
+          "writeOnce": 1.0,
+          "writeMultiple": 74.0,
+          "writeScheduled": 172.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 247.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    },
+    {
+      "sampleTime": "2020-01-02T10:25:00+08:00",
+      "sampleTimeSec": 1577931900,
+      "hitIO": {
+        "read": 31.3,
+        "write": 5.3
+      },
+      "missIO": {
+        "read": 0.3,
+        "write": 12.9
+      },
+      "accessIO": {
+        "read": 31.6,
+        "write": 18.2
+      },
+      "hitPct": {
+        "read": 99.1,
+        "write": 29.2
+      },
+      "totalAccessIO": 49.8,
+      "lockBulkIO": 0.0,
+      "pageStatistic": {
+        "pageStates": {
+          "free": 887499.0,
+          "clean": 929814.0,
+          "writeOnce": 104.0,
+          "writeMultiple": 60.0,
+          "writeScheduled": 74.0,
+          "writing": 0.0,
+          "dcowpend": 0.0
+        },
+        "dirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 238.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "maxDirtyPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 14400.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        },
+        "delayAckPages": {
+          "FC_10": 0.0,
+          "FC_15": 0.0,
+          "NL_7": 0.0,
+          "SSD_100": 0.0,
+          "SSD_150": 0.0
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://192.168.128.151:8080/api/v1/systemreporter/vstime/cachememorystatistics/hires",
+      "rel": "self"
+    }
+  ]
+}}

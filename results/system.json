@@ -1,0 +1,190 @@
+{{
+  "id": 146249,
+  "name": "NISStorage1",
+  "systemVersion": "3.3.1.410",
+  "patches": "P32,P34,P36,P39,P40,P45,P51,P52,P57,P60",
+  "IPv4Addr": "192.168.128.151",
+  "model": "HPE_3PAR 8200",
+  "serialNumber": "CN791902L5",
+  "totalNodes": 2,
+  "masterNode": 0,
+  "onlineNodes": [
+    0,
+    1
+  ],
+  "clusterNodes": [
+    0,
+    1
+  ],
+  "chunkletSizeMiB": 1024,
+  "totalCapacityMiB": 44371968.0,
+  "allocatedCapacityMiB": 42525696.0,
+  "freeCapacityMiB": 1846272.0,
+  "failedCapacityMiB": 0.0,
+  "readOnlyParameters": {
+    "maxVolumeSizeMiB": 67108864,
+    "maxDedupVolumeSizeMiB": 16777216,
+    "maxCompressedVolumeSizeMiB": 16777216
+  },
+  "contact": "dd 33",
+  "timeZone": "Asia/Shanghai",
+  "licenseInfo": {
+    "issueTimeSec": 1557211158,
+    "issueTime8601": "2019-05-07T14:39:18+08:00",
+    "diskCount": -1,
+    "WWNBASE": 146249,
+    "licenses": [
+      {
+        "name": "3PAR OS Suite"
+      },
+      {
+        "name": "Adaptive Flash Cache"
+      },
+      {
+        "name": "Adaptive Optimization"
+      },
+      {
+        "name": "Autonomic Rebalance"
+      },
+      {
+        "name": "Cluster Extension"
+      },
+      {
+        "name": "Compression"
+      },
+      {
+        "name": "Dynamic Optimization"
+      },
+      {
+        "name": "File Persona (2147482624G)"
+      },
+      {
+        "name": "Management Plug-In for VMware vCenter"
+      },
+      {
+        "name": "Online Import"
+      },
+      {
+        "name": "Peer Motion"
+      },
+      {
+        "name": "Peer Persistence"
+      },
+      {
+        "name": "Priority Optimization"
+      },
+      {
+        "name": "Recovery Manager Central"
+      },
+      {
+        "name": "Recovery Manager for Exchange"
+      },
+      {
+        "name": "Recovery Manager for Microsoft Hyper-V"
+      },
+      {
+        "name": "Recovery Manager for Oracle"
+      },
+      {
+        "name": "Recovery Manager for SQL"
+      },
+      {
+        "name": "Recovery Manager for VMware vSphere"
+      },
+      {
+        "name": "Remote Copy"
+      },
+      {
+        "name": "RMC Application Suite"
+      },
+      {
+        "name": "Smart SAN"
+      },
+      {
+        "name": "Storage Federation"
+      },
+      {
+        "name": "System Reporter"
+      },
+      {
+        "name": "Thin Conversion"
+      },
+      {
+        "name": "Thin Copy Reclamation"
+      },
+      {
+        "name": "Thin Deduplication"
+      },
+      {
+        "name": "Thin Persistence"
+      },
+      {
+        "name": "Thin Provisioning (10240000G)"
+      },
+      {
+        "name": "Virtual Copy"
+      },
+      {
+        "name": "Virtual Domains"
+      },
+      {
+        "name": "Virtual Lock"
+      },
+      {
+        "name": "VSS Provider for Microsoft Windows"
+      }
+    ],
+    "licenseState": {
+      "virtualCopy": true,
+      "remoteCopy": true,
+      "thinProvisioing": true,
+      "domains": true,
+      "dynamicOptimization": true,
+      "virtualLock": true,
+      "thinPersistence": true,
+      "thinConversion": true,
+      "adaptiveOptimization": true,
+      "peerVirtualization": true,
+      "qos": true,
+      "systemReporter": true,
+      "darEncryption": false,
+      "fileServices": true,
+      "storageFederation": true,
+      "onlineImport": true,
+      "rmcApplicationSuite": true,
+      "smartSAN": true
+    }
+  },
+  "parameters": {
+    "rawSpaceAlertFC": 0,
+    "rawSpaceAlertNL": 0,
+    "rawSpaceAlertSSD": 0,
+    "remoteSyslog": true,
+    "remoteSyslogHost": "192.168.100.201",
+    "remoteSyslogSecurityHost": "0.0.0.0",
+    "sparingAlgorithm": "Default",
+    "eventLogsize": 4194304,
+    "VVRetentionTimeMax": 1209600,
+    "upgradeNote": "",
+    "portFailoverEnabled": true,
+    "autoExportAfterReboot": true,
+    "allowR5OnNLDrives": true,
+    "allowR0": false,
+    "thermalShutdown": true,
+    "failoverMatchedSet": true,
+    "sessionTimeout": 3600,
+    "hostDIF": true,
+    "hostDIFTemplate": 2,
+    "allowWrtbackSingleNode": false,
+    "allowWrtbackUpgrade": false,
+    "disableDedup": false,
+    "overProvRatioLimit": 0.0,
+    "overProvRatioWarning": 0.0,
+    "disableChunkletInitUNMAP": false,
+    "personaProfile": 2,
+    "complianceOfficerApproval": false,
+    "allowR5OnFCDrives": false,
+    "disableCompr": false,
+    "remoteCopyHostThrottling": false
+  }
+}}

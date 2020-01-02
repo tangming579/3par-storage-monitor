@@ -74,7 +74,7 @@ namespace _3ParMonitoring
                                 using (StreamReader sr = new StreamReader(hr.GetResponseStream(), Encoding.UTF8))
                                 {
                                     var resResult = new ResponseResult() { IsSuccess = false };
-                                    resResult.Result = JObject.Parse(e.Result);
+                                    resResult.Result = JObject.Parse(sr.ReadToEnd());
                                     resResult.StatusCode = statusCode;
                                     callback?.Invoke(resResult);
                                 }
@@ -83,6 +83,7 @@ namespace _3ParMonitoring
                         else
                         {
                             var resResult = new ResponseResult() { IsSuccess = false };
+                            resResult.StatusCode = (int)client.StatusCode();
                             callback?.Invoke(resResult);
                         }
                     }
@@ -98,6 +99,11 @@ namespace _3ParMonitoring
                 catch (Exception exp)
                 {
                     result = "Error:" + (exp.InnerException?.Message ?? exp.Message);
+                    var resResult = new ResponseResult() { IsSuccess = false };
+                    resResult.Result = new JObject();
+                    resResult.Message = result;
+                    resResult.StatusCode = (int)client.StatusCode();
+                    callback?.Invoke(resResult);
                 }
             };
             client.DownloadStringAsync(new Uri(url));
@@ -141,21 +147,26 @@ namespace _3ParMonitoring
         public HttpStatusCode StatusCode()
         {
             HttpStatusCode result;
-
-            if (this.request == null)
+            try
             {
-                throw (new InvalidOperationException("Unable to retrieve the status code," +
-                    " maybe you haven't made a request yet."));
+                if (this.request == null)
+                {
+                    return HttpStatusCode.Forbidden;
+                }
+                HttpWebResponse response = base.GetWebResponse(this.request) as HttpWebResponse;
+                if (response != null)
+                {
+                    result = response.StatusCode;
+                }
+                else
+                {
+                    throw (new InvalidOperationException("Unable to retrieve the status " +
+                        "code, maybe you haven't made a request yet."));
+                }
             }
-            HttpWebResponse response = base.GetWebResponse(this.request) as HttpWebResponse;
-            if (response != null)
+            catch (Exception exp)
             {
-                result = response.StatusCode;
-            }
-            else
-            {
-                throw (new InvalidOperationException("Unable to retrieve the status " +
-                    "code, maybe you haven't made a request yet."));
+                return HttpStatusCode.Forbidden;
             }
             return result;
         }
@@ -166,6 +177,8 @@ namespace _3ParMonitoring
         public int StatusCode { get; set; }
 
         public bool IsSuccess { get; set; }
+
+        public string Message { get; set; }
 
         public JObject Result { get; set; }
     }
